@@ -1,0 +1,93 @@
+/*
+font-family: 'Kumbh Sans', sans-serif; 
+*/
+
+/*****************************
+******* IMG *************
+****************************/
+
+.img {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  margin-top: 10rem;
+  margin-right: 8rem;
+}
+
+.imgs {
+  margin-top: -45rem;
+}
+
+/*****************************
+******* HEADER *************
+****************************/
+
+.paragraph-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.paragraph-header-- {
+  font-size: 1.8rem;
+  margin-top: 10rem;
+}
+
+/*****************************
+******* SELECTED OPTION **
+***********LINKS *************
+****************************/
+
+.paragraph-link:link,
+.paragraph-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+  transition: all 0.3s;
+  color: hsl(238, 29%, 16%);
+  font-family: "Overpass", sans-serif;
+  font-size: 1.8rem;
+}
+
+.paragraph-link:hover,
+.paragraph-link:active {
+  color: #cf711f;
+}
+
+/*****************************
+******* HIDDEN PARAGRAPH *************
+****************************/
+
+.ein,
+.zwei,
+.drei,
+.vier,
+.funf {
+  font-size: 1.4rem;
+  width: 60%;
+  color: hsla(238, 29%, 16%, 0.447);
+}
+
+/*****************************
+******* ARROWS *************
+****************************/
+
+.arrow-one {
+  margin-left: 20rem;
+}
+
+.arrow-two {
+  margin-left: 20.4rem;
+}
+
+.arrow-three {
+  margin-left: 27.4rem;
+}
+
+.arrow-four {
+  margin-left: 27rem;
+}
+
+.arrow-five {
+  margin-left: 24rem;
+}

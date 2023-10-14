@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+  background: rgb(171, 146, 191);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 146, 191, 1) 0%,
+    rgba(101, 101, 231, 1) 100%
+  );
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*****************************
+******* HIDDEN *************
+****************************/
+
+.hidden {
+  display: none;
+}
+
+.container {
+  border-radius: 16px;
+  box-shadow: 1px 2px 5px grey;
+  height: 70rem;
+}
+
+.attribution {
+  margin-top: 2rem;
+}
+
+section {
+  background-color: #fff;
+}
